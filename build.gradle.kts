@@ -5,9 +5,9 @@ buildscript {
     }
 
     dependencies {
-        classpath(com.bjw.instagram_clone.Android.BUILD_GRADLE)
-        classpath(com.bjw.instagram_clone.Kotlin.SDK)
-        classpath(com.bjw.instagram_clone.KtLint.KTLINT)
+        classpath("com.android.tools.build:gradle:7.3.1")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
+        classpath("org.jlleitschuh.gradle:ktlint-gradle:12.1.0")
     }
 }
 
