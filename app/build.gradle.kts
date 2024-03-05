@@ -54,6 +54,10 @@ dependencies {
     androidTestImplementation(com.bjw.instagram_clone.Test.EXT_JUNIT)
     androidTestImplementation(com.bjw.instagram_clone.Test.ESPRESSO_CORE)
 
+    // Retrofit
+    implementation(com.bjw.instagram_clone.Retrofit.RETROFIT)
+    implementation(com.bjw.instagram_clone.Retrofit.CONVERTER_GSON)
+
     // Hilt
     implementation(com.bjw.instagram_clone.DaggerHilt.DAGGER_HILT)
     kapt(com.bjw.instagram_clone.DaggerHilt.DAGGER_HILT_COMPILER)
