@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Instagram_clone">
         <activity
-            android:name="com.bjw.instagram_clone.MainActivity"
+            android:name="com.bjw.instagram_clone.app.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
