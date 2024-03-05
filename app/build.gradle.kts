@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    kotlin("kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -51,4 +53,12 @@ dependencies {
     testImplementation(com.bjw.instagram_clone.Test.JUNIT)
     androidTestImplementation(com.bjw.instagram_clone.Test.EXT_JUNIT)
     androidTestImplementation(com.bjw.instagram_clone.Test.ESPRESSO_CORE)
+
+    // Hilt
+    implementation(com.bjw.instagram_clone.DaggerHilt.DAGGER_HILT)
+    kapt(com.bjw.instagram_clone.DaggerHilt.DAGGER_HILT_COMPILER)
+}
+
+kapt {
+    correctErrorTypes = true
 }
