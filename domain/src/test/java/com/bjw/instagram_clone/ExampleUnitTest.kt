@@ -1,4 +1,4 @@
-package com.bjw.data
+package com.bjw.instagram_clone
 
 import org.junit.Test
 
