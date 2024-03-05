@@ -47,6 +47,7 @@ android {
 dependencies {
 
     implementation(project(mapOf("path" to ":data")))
+    implementation(project(mapOf("path" to ":domain")))
 
     implementation(com.bjw.instagram_clone.KTX.CORE)
     implementation(com.bjw.instagram_clone.AndroidX.APP_COMPAT)
