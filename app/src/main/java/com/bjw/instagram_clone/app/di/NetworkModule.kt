@@ -22,7 +22,7 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideHttpClient(
-        appInterceptor: Interceptor
+        appInterceptor: AppInterceptor
     ): OkHttpClient {
         return OkHttpClient.Builder()
             .readTimeout(10, TimeUnit.SECONDS)
