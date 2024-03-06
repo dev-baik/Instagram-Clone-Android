@@ -22,6 +22,7 @@ plugins {
 allprojects {
     apply {
         plugin("maven-publish")
+        plugin("org.jlleitschuh.gradle.ktlint")
     }
 
     tasks.withType<JavaCompile> {
