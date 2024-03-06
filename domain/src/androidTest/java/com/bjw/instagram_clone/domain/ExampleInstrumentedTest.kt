@@ -1,4 +1,4 @@
-package com.bjw.instagram_clone
+package com.bjw.instagram_clone.domain
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry

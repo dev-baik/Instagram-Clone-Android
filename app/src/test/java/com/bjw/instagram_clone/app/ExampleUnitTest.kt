@@ -1,4 +1,4 @@
-package com.bjw.instagram_clone
+package com.bjw.instagram_clone.app
 
 import org.junit.Assert.assertEquals
 import org.junit.Test

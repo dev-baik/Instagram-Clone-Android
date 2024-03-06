@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.bjw.domain"
+    namespace = "com.bjw.instagram_clone.data"
     compileSdk = 34
 
     defaultConfig {

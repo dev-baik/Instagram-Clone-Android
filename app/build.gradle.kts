@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bjw.instagram_clone"
+    namespace = "com.bjw.instagram_clone.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bjw.instagram_clone"
+        applicationId = "com.bjw.instagram_clone.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
