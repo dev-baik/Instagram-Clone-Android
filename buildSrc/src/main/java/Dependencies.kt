@@ -9,7 +9,7 @@ import com.bjw.instagram_clone.Versions.RETROFIT_VERSION
 
 object Versions {
     const val KOTLIN_VERSION = "1.8.0"
-    const val KTLINT_VERSION = "12.1.0"
+    const val KTLINT_VERSION = "10.2.1"
     const val HILT_VERSION = "2.48"
     const val RETROFIT_VERSION = "2.9.0"
     const val OKHTTP_VERSION = "4.12.0"
