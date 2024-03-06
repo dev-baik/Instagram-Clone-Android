@@ -3,6 +3,7 @@ package com.bjw.instagram_clone
 import com.bjw.instagram_clone.Versions.HILT_VERSION
 import com.bjw.instagram_clone.Versions.KOTLIN_VERSION
 import com.bjw.instagram_clone.Versions.KTLINT_VERSION
+import com.bjw.instagram_clone.Versions.LIFECYCLE_VERSION
 import com.bjw.instagram_clone.Versions.OKHTTP_VERSION
 import com.bjw.instagram_clone.Versions.RETROFIT_VERSION
 
@@ -12,6 +13,7 @@ object Versions {
     const val HILT_VERSION = "2.48"
     const val RETROFIT_VERSION = "2.9.0"
     const val OKHTTP_VERSION = "4.12.0"
+    const val LIFECYCLE_VERSION = "2.7.0"
 }
 
 object Android {
@@ -30,6 +32,14 @@ object AndroidX {
     const val APP_COMPAT = "androidx.appcompat:appcompat:1.6.1"
     const val MATERIAL = "com.google.android.material:material:1.11.0"
     const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:2.1.4"
+    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:$LIFECYCLE_VERSION"
+    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:$LIFECYCLE_VERSION"
+    const val ACTIVITY = "androidx.activity:activity-ktx:1.8.2"
+    const val FRAGMENT = "androidx.fragment:fragment-ktx:1.6.2"
+}
+
+object Coroutines {
+    const val COROUTINES = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9"
 }
 
 object DaggerHilt {

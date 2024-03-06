@@ -64,6 +64,15 @@ dependencies {
     // Hilt
     implementation(com.bjw.instagram_clone.DaggerHilt.DAGGER_HILT)
     kapt(com.bjw.instagram_clone.DaggerHilt.DAGGER_HILT_COMPILER)
+
+    // AndroidX
+    implementation(com.bjw.instagram_clone.AndroidX.LIFECYCLE_VIEW_MODEL)
+    implementation(com.bjw.instagram_clone.AndroidX.LIFECYCLE_LIVEDATA)
+    implementation(com.bjw.instagram_clone.AndroidX.ACTIVITY)
+    implementation(com.bjw.instagram_clone.AndroidX.FRAGMENT)
+
+    // Coroutines
+    implementation(com.bjw.instagram_clone.Coroutines.COROUTINES)
 }
 
 kapt {
