@@ -1,22 +1,19 @@
 plugins {
-    id("com.android.application")
+    id("com.android.library")
     id("org.jetbrains.kotlin.android")
     kotlin("kapt")
     id("com.google.dagger.hilt.android")
 }
 
 android {
-    namespace = "com.bjw.instagram_clone.app"
+    namespace = "com.bjw.instagram_clone.presentation"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bjw.instagram_clone.app"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -29,10 +26,6 @@ android {
         }
         debug {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
         }
     }
     compileOptions {
@@ -48,7 +41,6 @@ dependencies {
 
     implementation(project(mapOf("path" to ":data")))
     implementation(project(mapOf("path" to ":domain")))
-    implementation(project(mapOf("path" to ":presentation")))
 
     implementation(com.bjw.instagram_clone.KTX.CORE)
     implementation(com.bjw.instagram_clone.AndroidX.APP_COMPAT)

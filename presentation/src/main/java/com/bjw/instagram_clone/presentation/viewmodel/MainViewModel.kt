@@ -1,4 +1,4 @@
-package com.bjw.instagram_clone.app.viewmodel
+package com.bjw.instagram_clone.presentation.viewmodel
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
